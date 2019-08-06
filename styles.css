@@ -12,6 +12,9 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section,
 body {
 	font-family: 'Montserrat', sans-serif;
 }
+h2 {
+	font-family: 'Chewy', cursive;
+}
 .about {
 	background-color: #aee7ef;
 }
@@ -46,6 +49,29 @@ summary {
 }
 .travel img {
 	width: 96%;
+	padding: 2%;
+}
+.recipes {
+	background-color: lavender;
+}
+.recipes article {
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.recipes article h3 {
+	font-size: 2rem;
+}
+.recipes article p {
+	padding-bottom: 1%;
+}
+.recipes article img {
+	width: 70%;
+	align-self: center;
 	padding: 2%;
 }
 /*---------------photo captions-----------------*/
@@ -93,6 +119,9 @@ outline: 0;
 	.about article img {
 		width: 60%;
 	}
+	.recipes article img {
+		width: 60%;
+	}
 }
 @media (min-width: 655px){
 	.travel {
@@ -105,6 +134,9 @@ outline: 0;
 		max-width: 30%;
 	}
 	.about article img {
+		width: 50%;
+	}
+	.recipes article img {
 		width: 50%;
 	}
 }
@@ -129,4 +161,12 @@ outline: 0;
 	.about article img {
 		width: 45%;
 	}
+	.recipes article img {
+		width: 45%;
+	}
+	.recipes article{
+		flex-direction: row;
+		justify-content: center;
+	}
+
 }
