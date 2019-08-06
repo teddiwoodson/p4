@@ -3,23 +3,35 @@
 	padding: 0;
 	border: 0;
 }
+/*font-family: 'Chewy', cursive;
+font-family: 'Montserrat', sans-serif;*/
 
 article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
     display:block;
 }
-img {
+.travel {
+	background-color: pink;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+.logo {
 	width: 30%;
 }
+.travel img {
+	width: 96%;
+	padding: 2%;
+}
+/*---------------photo captions-----------------*/
 figure {
   display: block;
   position: relative;
   overflow: hidden;
 }
-
 figcaption {
   position: absolute;
-  background: rgba(0,0,0,0.75);
+  background: orange;
   color: white;
+	font-family: 'Montserrat', sans-serif;
   padding: 10px 20px;
 
   opacity: 0;
@@ -36,3 +48,43 @@ figure:hover figcaption {
 }
 .cap-bot figcaption { left: 0; bottom: -30%;}
 .cap-bot:hover figcaption { bottom: 0; }
+
+@media (min-width: 600px){
+	.travel {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.travel figure {
+		max-width: 48%;
+	}
+}
+@media (min-width: 775px){
+	.travel {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.travel figure {
+		max-width: 30%;
+	}
+	.travel figure figcaption {
+		font-size: .75rem;
+	}
+}
+@media (min-width: 940px){
+	.travel {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.travel figure {
+		max-width: 22%;
+	}
+	.travel figure figcaption {
+		font-size: .75rem;
+	}
+}
