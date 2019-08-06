@@ -9,6 +9,33 @@ font-family: 'Montserrat', sans-serif;*/
 article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
     display:block;
 }
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+.about {
+	background-color: #aee7ef;
+}
+.about article {
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.about article p {
+	padding-bottom: 5%;
+}
+.about article img {
+	width: 70%;
+	align-self: center;
+	padding: 2%;
+}
+summary {
+	font-family: 'Chewy', cursive;
+	font-size: 1.5rem;
+}
 .travel {
 	background-color: pink;
 	padding-top: 2%;
@@ -49,6 +76,10 @@ figure:hover figcaption {
 .cap-bot figcaption { left: 0; bottom: -30%;}
 .cap-bot:hover figcaption { bottom: 0; }
 
+:focus {
+outline: 0;
+}
+
 @media (min-width: 500px){
 	.travel {
 		display: flex;
@@ -58,6 +89,9 @@ figure:hover figcaption {
 	}
 	.travel figure {
 		max-width: 48%;
+	}
+	.about article img {
+		width: 60%;
 	}
 }
 @media (min-width: 655px){
@@ -70,6 +104,9 @@ figure:hover figcaption {
 	.travel figure {
 		max-width: 30%;
 	}
+	.about article img {
+		width: 50%;
+	}
 }
 @media (min-width: 775px){
 	.travel {
@@ -80,5 +117,16 @@ figure:hover figcaption {
 	}
 	.travel figure {
 		max-width: 22%;
+	}
+	.about article{
+		flex-direction: row;
+		justify-content: center;
+	}
+	.about article{
+		padding-left: 2%;
+		padding-right: 2%;
+	}
+	.about article img {
+		width: 45%;
 	}
 }
