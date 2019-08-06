@@ -49,7 +49,7 @@ figure:hover figcaption {
 .cap-bot figcaption { left: 0; bottom: -30%;}
 .cap-bot:hover figcaption { bottom: 0; }
 
-@media (min-width: 600px){
+@media (min-width: 500px){
 	.travel {
 		display: flex;
 		flex-direction: row;
@@ -60,7 +60,7 @@ figure:hover figcaption {
 		max-width: 48%;
 	}
 }
-@media (min-width: 775px){
+@media (min-width: 655px){
 	.travel {
 		display: flex;
 		flex-direction: row;
@@ -70,11 +70,8 @@ figure:hover figcaption {
 	.travel figure {
 		max-width: 30%;
 	}
-	.travel figure figcaption {
-		font-size: .75rem;
-	}
 }
-@media (min-width: 940px){
+@media (min-width: 775px){
 	.travel {
 		display: flex;
 		flex-direction: row;
@@ -83,8 +80,5 @@ figure:hover figcaption {
 	}
 	.travel figure {
 		max-width: 22%;
-	}
-	.travel figure figcaption {
-		font-size: .75rem;
 	}
 }
