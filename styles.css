@@ -7,6 +7,3 @@
 article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
     display:block;
 }
-img {
-	max-width: 20%;
-}
