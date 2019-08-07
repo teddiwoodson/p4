@@ -43,6 +43,7 @@ summary {
 	background-color: pink;
 	padding-top: 2%;
 	padding-bottom: 2%;
+	height: 100vh;
 }
 .logo {
 	width: 30%;
@@ -79,6 +80,23 @@ summary {
 	display: flex;
 	align-self: center;
 	padding: 2%;
+}
+.games {
+	background-color: orange;
+	display: flex;
+	flex-direction: column;
+	align-items:center;
+	padding: 2%;
+	height: 100vh;
+}
+.games h2 {
+	color: white;
+}
+.games img {
+	width: 70%;
+}
+#puzzle {
+	padding: 3%;
 }
 /*---------------photo captions-----------------*/
 figure {
@@ -131,6 +149,9 @@ outline: 0;
 	.recipe {
 		width: 60%;
 	}
+	.games img {
+		width: 60%;
+	}
 }
 @media (min-width: 655px){
 	.travel {
@@ -150,6 +171,9 @@ outline: 0;
 	}
 	.recipe {
 		width: 40%;
+	}
+	.games img {
+		width: 50%;
 	}
 }
 @media (min-width: 775px){
@@ -179,6 +203,13 @@ outline: 0;
 	.recipes article{
 		flex-direction: row;
 		justify-content: center;
+	}
+	.games{
+		flex-direction: row;
+		justify-content: center;
+	}
+	.games img {
+		width: 45%;
 	}
 
 }
