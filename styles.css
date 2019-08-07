@@ -36,6 +36,9 @@ header {
 h1, h2 {
 	font-family: 'Chewy', cursive;
 }
+h1, h2 {
+	font-family: 'Chewy', cursive;
+}
 main {
 	padding: 5%;
 	display: flex;
@@ -377,8 +380,13 @@ outline: 0;
 		width: 45%;
 	}
 	.recipes article{
+		display: flex;
 		flex-direction: row;
-		justify-content: center;
+		justify-content: space-around;
+	}
+	.recipes article img {
+		padding-left: 0;
+		padding-right: 0;
 	}
 	.games{
 		flex-direction: row;
@@ -398,6 +406,9 @@ outline: 0;
 }
 @media (min-width: 1044px){
 	main article img {
-		width:30%;
+		width:35%;
+	}
+	.recipe {
+		width: 35%;
 	}
 }
