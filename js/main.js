@@ -17,3 +17,6 @@ var r_image = [
 
 im = document.getElementById("image");
 im.src = r_image[rand_int];
+
+//smooth scroll
+var scroll = new SmoothScroll('a[href*="#"]');
