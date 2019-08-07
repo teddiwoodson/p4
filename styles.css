@@ -12,7 +12,30 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section,
 body {
 	font-family: 'Montserrat', sans-serif;
 }
-h2 {
+header {
+	display: flex;
+	flex-direction: row;
+	padding: 5%;
+	align-items: center;
+	justify-content: space-between;
+}
+nav {
+	width: 60%;
+}
+nav ul {
+	display: flex;
+	flex-direction: row;
+	list-style-type: none;
+	justify-content:space-around;
+}
+nav ul li a{
+	padding-left: 5%;
+	padding-right: 5%;
+}
+.logo {
+	width: 15%;
+}
+h1, h2 {
 	font-family: 'Chewy', cursive;
 }
 .about {
@@ -43,9 +66,6 @@ summary {
 	background-color: pink;
 	padding-top: 2%;
 	padding-bottom: 2%;
-}
-.logo {
-	width: 30%;
 }
 .travel img {
 	width: 96%;
