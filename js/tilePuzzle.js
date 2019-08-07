@@ -22,7 +22,7 @@
             keyAccess: false,
             tileContainerClass: 'tiles',
             level: 4,
-            maxWidth: 600
+            maxWidth: 900
         };
 
         var construct = {

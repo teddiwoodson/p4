@@ -43,7 +43,6 @@ summary {
 	background-color: pink;
 	padding-top: 2%;
 	padding-bottom: 2%;
-	height: 100vh;
 }
 .logo {
 	width: 30%;
@@ -85,18 +84,16 @@ summary {
 	background-color: orange;
 	display: flex;
 	flex-direction: column;
-	align-items:center;
-	padding: 2%;
-	height: 100vh;
+	align-items: center;
+	align-content: center;
+	padding: 7%;
 }
 .games h2 {
 	color: white;
 }
 .games img {
-	width: 70%;
-}
-#puzzle {
-	padding: 3%;
+	width: 90%;
+	padding: 2%;
 }
 /*---------------photo captions-----------------*/
 figure {
