@@ -255,6 +255,7 @@ figure:hover figcaption {
 :focus {
 outline: 0;
 }
+/*------------STart media queries---------*/
 @media (min-width: 440px){
 	main article img {
 		padding-top: 0%;
