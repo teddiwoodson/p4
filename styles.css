@@ -15,22 +15,17 @@ body {
 header {
 	display: flex;
 	flex-direction: row;
-	padding: 5%;
-	align-items: center;
-	justify-content: space-between;
+	justify-content: center;
 }
-nav {
-	width: 60%;
-}
-nav ul {
+.desktop {
 	display: flex;
 	flex-direction: row;
-	list-style-type: none;
-	justify-content:space-around;
-}
-nav ul li a{
 	padding-left: 5%;
 	padding-right: 5%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	align-items: center;
+	justify-content: space-between;
 }
 .logo {
 	width: 15%;
@@ -170,6 +165,22 @@ outline: 0;
 		width: 60%;
 	}
 }
+@media (min-width: 600px){
+	.desktop nav {
+		display:inline;
+		width: 55%;
+	}
+	.desktop nav ul {
+		display: flex;
+		flex-direction: row;
+		list-style-type: none;
+		justify-content:space-around;
+	}
+	.desktop nav ul li a{
+		padding-left: 8%;
+		padding-right: 8%;
+	}
+}
 @media (min-width: 655px){
 	.travel {
 		display: flex;
@@ -228,5 +239,9 @@ outline: 0;
 	.games img {
 		width: 45%;
 	}
-
+}
+@media (min-width: 900px){
+	.logo {
+		max-width: 12%;
+	}
 }

@@ -1,7 +1,9 @@
 nav.container
 {
-	padding: 10em 3em;
+	padding: 0 3em;
 	text-align: center;
+  font-family: 'Chewy', cursive;
+  font-size: 1.25rem;
 }
 
 nav.container a
@@ -16,7 +18,7 @@ nav.container a
     cursor: pointer;
 }
 nav a:hover {
-      color: white;
+      color: #21bec9;
 }
 /* Circle behind */
 nav.circleBehind a:before, div.circleBehind a:after
@@ -29,7 +31,7 @@ nav.circleBehind a:before, div.circleBehind a:after
     border: 4px solid black;
     transform: translateX(-50%) translateY(-50%) scale(0.8);
     border-radius: 50%;
-    background: #21bec9;
+    background: transparent;
     content: "";
     opacity: 0;
     transition: all 0.3s;
