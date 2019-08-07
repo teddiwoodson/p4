@@ -69,8 +69,14 @@ summary {
 .recipes article p {
 	padding-bottom: 1%;
 }
-.recipes article img {
+.recipe {
 	width: 70%;
+	display: flex;
+	align-self: center;
+}
+.chef {
+	width: 70%;
+	display: flex;
 	align-self: center;
 	padding: 2%;
 }
@@ -119,7 +125,10 @@ outline: 0;
 	.about article img {
 		width: 60%;
 	}
-	.recipes article img {
+	.chef {
+		width: 60%;
+	}
+	.recipe {
 		width: 60%;
 	}
 }
@@ -136,8 +145,11 @@ outline: 0;
 	.about article img {
 		width: 50%;
 	}
-	.recipes article img {
+	.chef {
 		width: 50%;
+	}
+	.recipe {
+		width: 40%;
 	}
 }
 @media (min-width: 775px){
@@ -161,7 +173,7 @@ outline: 0;
 	.about article img {
 		width: 45%;
 	}
-	.recipes article img {
+	.chef {
 		width: 45%;
 	}
 	.recipes article{
