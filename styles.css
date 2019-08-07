@@ -306,6 +306,11 @@ outline: 0;
 header{display:inline-block; font-size:12px;}
 span{padding-left:20px;}
 a{color:#336699;}
+
+.jokes {
+	background-color: teal;
+	height: 100vh;
+}
 /*------------STart media queries---------*/
 @media (min-width: 440px){
 	main article img {
