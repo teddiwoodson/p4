@@ -244,4 +244,3 @@ $( ".hamburger" ).show();
 		loop();
 	}
 })();
-///Change text
