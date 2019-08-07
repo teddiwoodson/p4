@@ -1,5 +1,5 @@
 $('#puzzle').tilePuzzle({
-    'level': 4,
+    'level': 3,
     'maxWidth': 300,
     'imageUrl': 'images/puzzle.jpg'
 });
