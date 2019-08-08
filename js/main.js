@@ -378,3 +378,70 @@ $(document).ready(function(){
 		loop();
 	}
 })();
+//header blinks
+(function() {     // function expression closure to contain variables
+    var i = 0;
+    var pics = [ "images/dino2.png", "images/dino2_blink.png" ];
+    var el = document.getElementById('main_dino');  // el doesn't change
+    function toggle() {
+        el.src = pics[i];           // set the image
+        i = (i + 1) % pics.length;  // update the counter
+    }
+    setInterval(toggle, 1700);
+})();
+//about blinks
+(function() {     // function expression closure to contain variables
+    var i = 0;
+    var pics = [ "images/headshot.png", "images/headshot_blink.png" ];
+    var el = document.getElementById('aboutDoug');  // el doesn't change
+    function toggle() {
+        el.src = pics[i];           // set the image
+        i = (i + 1) % pics.length;  // update the counter
+    }
+    setInterval(toggle, 1700);
+})();
+
+//recipe blinks
+(function() {     // function expression closure to contain variables
+    var i = 0;
+    var pics = [ "images/chef_blink.png", "images/chef.png" ];
+    var el = document.getElementById('chef');  // el doesn't change
+    function toggle() {
+        el.src = pics[i];           // set the image
+        i = (i + 1) % pics.length;  // update the counter
+    }
+    setInterval(toggle, 1500);
+})();
+//game blinks
+(function() {     // function expression closure to contain variables
+    var i = 0;
+    var pics = [ "images/game_dino.png", "images/game_dino_blink.png" ];
+    var el = document.getElementById('puzzleDoug');  // el doesn't change
+    function toggle() {
+        el.src = pics[i];           // set the image
+        i = (i + 1) % pics.length;  // update the counter
+    }
+    setInterval(toggle, 1500);
+})();
+//jokes blinks
+(function() {     // function expression closure to contain variables
+    var i = 0;
+    var pics = [ "images/jokes.png", "images/jokes_blink.png" ];
+    var el = document.getElementById('jokesDoug');  // el doesn't change
+    function toggle() {
+        el.src = pics[i];           // set the image
+        i = (i + 1) % pics.length;  // update the counter
+    }
+    setInterval(toggle, 1500);
+})();
+//logo blinks
+(function() {     // function expression closure to contain variables
+    var i = 0;
+    var pics = [ "images/white_logo.png", "images/blink_logo.png" ];
+    var el = document.getElementById('logoDoug');  // el doesn't change
+    function toggle() {
+        el.src = pics[i];           // set the image
+        i = (i + 1) % pics.length;  // update the counter
+    }
+    setInterval(toggle, 1500);
+})();
