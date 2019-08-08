@@ -11,6 +11,7 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section,
 }
 body {
 	font-family: 'Montserrat', sans-serif;
+	overflow-x:hidden;
 }
 header {
 	display: flex;
@@ -330,10 +331,6 @@ outline: 0;
 .menu ul li a:hover {  color: black; text-decoration:none;}
 .menu a{text-decoration:none; color:black;}
 .menu a:hover{text-decoration:none; color:black;}
-.menu {
-	top: 0px;
-	left: 0px;
-}
 
 .glyphicon-home{
   color:white;
@@ -421,6 +418,9 @@ footer {
 footer img {
 	width: 10%;
 	align-self: center;
+}
+#puzzle {
+	padding:0;
 }
 /* Grow */
 .hvr-grow {
