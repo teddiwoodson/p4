@@ -7,13 +7,13 @@
 
 		<title>Doug the Dino</title>
 
-		<link type="text/css" rel="stylesheet" href="styles.css" />
+		<link type="text/css" rel="stylesheet" href="css/styles.css" />
 
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<link href="lightbox.css" rel="stylesheet"/>
-		<link href="tilepuzzle.css" rel="stylesheet"/>
-		<link href="nav.css" rel="stylesheet"/>
+		<link href="css/lightbox.css" rel="stylesheet"/>
+		<link href="css/tilepuzzle.css" rel="stylesheet"/>
+		<link href="css/nav.css" rel="stylesheet"/>
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
@@ -37,7 +37,7 @@
 					<li><a href="#jokes">Jokes</a></li>
 				</ul>
 			</nav>
-			<img class="logo" src="images/white_logo.png" id="logoDoug">
+			<img class="logo" src="images/white_logo.png" id="logoDoug" alt="logo" title="Doug the Dino">
 		</div>
 
 				<button class="hamburger">&#9776;</button>
@@ -66,7 +66,7 @@
 						<span class="h2">could drop by.</span>
 					</h2>
 				</section>
-						<img src="images/dino2.png" class="main_dino" id="main_dino">
+					<img src="images/dino2.png" class="hvr-bounce-in" id="main_dino" alt="main_dino" Title="Doug">
 			</article>
 		</main>
 
@@ -84,7 +84,7 @@
 					</nav>
 			</div>
 			<article>
-				<img src="images/headshot.png" alt="doug" title="doug" id="aboutDoug">
+				<img src="images/headshot.png" alt="doug" title="doug" id="aboutDoug" class="hvr-rotate">
 				<div class="about-text">
 					<details>
 						<summary>About Doug the Dino</summary>
@@ -94,7 +94,7 @@
 							<p>I also love, love, love to play games. Once a week, when I’m not traveling of course, I invite my friends over for Dinosaur snacks and games. Do you like games? If so, go ahead and see if you can beat the game I’ve left for you down below.  </p>
 					</details>
 				</div>
-			<article>
+			</article>
 		</section>
 
 		<section class="travel" id="travel">
@@ -143,19 +143,19 @@
 		<section class="recipes" id="recipes">
 			<article>
 				<img src="images/recipe2.jpg" alt="recipe" class="recipe" id="image">
-				<img src="images/chef.png" alt="chef" title="chef" class="chef" id="chef">
+				<img src="images/chef.png" alt="chef" title="chef" class="hvr-bounce-out" id="chef">
 			</article>
 		</section>
 
 		<section class="games" id="games">
-			<img src="images/game_dino.png" id="puzzleDoug">
+			<img src="images/game_dino.png" id="puzzleDoug" class="hvr-wobble-horizontal" alt="game_dino" title="Doug likes Games">
 			<div id="puzzle"></div>
 		</section>
 
 		<section class="jokes" id="jokes">
 			<article>
 				<div class="jokesContainer">
-					<img src="images/jokes.png" id="jokesDoug">
+					<img src="images/jokes.png" id="jokesDoug" class="hvr-pop" alt="jokes-dino" title="Doug likes Jokes">
 					<div class="jokeGenerator">
 					<div id="quoteContainer">
 						<p></p>
@@ -170,8 +170,11 @@
 		</section>
 
 		<footer>
+			<img src="images/footer.png" alt="footer-dino" title="Doug says bye!">
+			<div class="footer-text">
 			<p>That's all for now.</p>
 			<p>Thanks for dropping by!</p>
+			</div>
 		</footer>
 
 		<script src="js/lightbox.js"></script>
