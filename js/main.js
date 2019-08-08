@@ -47,100 +47,100 @@ $( ".hamburger" ).show();
 $(document).ready(function(){
   var quoteSource=[
   {
-    quote: "Start by doing what's necessary; then do what's possible; and suddenly you are doing the impossible.",
-    name:"Francis of Assisi"
+    quote: "What do you call a sleeping dinosaur?",
+    name:"A Dino-snore!"
     },
     {
-      quote:"Believe you can and you're halfway there.",
-      name:"Theodore Roosevelt"
+      quote:"What dinosaur would Harry Potter be?",
+      name:"The Dinosorcerer"
     },
     {
-      quote:"It does not matter how slowly you go as long as you do not stop.",
-      name:"Confucius"
+      quote:"Why was the Stegosaurus such a good volleyball player?",
+      name:"Because he could really spike the ball! "
     },
     {
-      quote:"Our greatest weakness lies in giving up. The most certain way to succeed is always to try just one more time.",
-      name:"Thomas A. Edison"
+      quote:"What does a triceratops sit on?",
+      name:"Its tricera-bottom."
     },
     {
-      quote:"The will to win, the desire to succeed, the urge to reach your full potential... these are the keys that will unlock the door to personal excellence.",
-      name:"Confucius"
+      quote:"What do dinosaurs use on the floors of their kitchens?",
+      name:"Rep-tiles"
     },
     {
-      quote:"Don't watch the clock; do what it does. Keep going.",
-      name:"Sam Levenson"
+      quote:"What's the nickname for someone who put their right hand in the mouth of a T-Rex?",
+      name:"Lefty"
     },
     {
-      quote:"A creative man is motivated by the desire to achieve, not by the desire to beat others.",
-      name:"Ayn Rand"
+      quote:"What game does the brontosaurus like to play with humans?",
+      name:"Squash"
     },
     {
-      quote:"A creative man is motivated by the desire to achieve, not by the desire to beat others.",
-      name:"Ayn Rand"
+      quote:"Why did the dinosaur cross the road?",
+      name:"To eat the chickens on the other side."
     },
     {
-      quote:"Expect problems and eat them for breakfast.",
-      name:"Alfred A. Montapert"
+      quote:"What do you call a paleontologist who sleeps all the time?",
+      name:"Lazy bones"
     },
     {
-      quote:"Start where you are. Use what you have. Do what you can.",
-      name:"Arthur Ashe"
+      quote:"What do you get when a dinosaur scores a touchdown?",
+      name:"A dino-score"
     },
     {
-      quote:"Ever tried. Ever failed. No matter. Try Again. Fail again. Fail better.",
-      name:"Samuel Beckett"
+      quote:"What did the dinosaur use to build his house?",
+      name:"A dino-saw"
     },
     {
-      quote:"Be yourself; everyone else is already taken.",
-      name:"Oscar Wilde"
+      quote:"What’s the best way to talk to a velociraptor?",
+      name:"Long distance!"
     },
     {
-      quote:"Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.",
-      name:"Albert Einstein"
+      quote:"How do you ask a tyrannosaur out to lunch?",
+      name:"Tea, Rex?"
     },
     {
-      quote:"Always remember that you are absolutely unique. Just like everyone else.",
-      name:"Margaret Mead"
+      quote:"Why can't you hear a pterosaur using the bathroom?",
+      name:"Because the P is silent!"
     },
     {
-      quote:"Do not take life too seriously. You will never get out of it alive.",
-      name:"Elbert Hubbard"
+      quote:"What do you call a terrible, horrible, unpleasant dinosaur?",
+      name:"A thesaurus."
     },
     {
-      quote:"People who think they know everything are a great annoyance to those of us who do.",
-      name:"Isaac Asimov"
+      quote:"What is a dinosaur's least favorite reindeer?",
+      name:"Comet!"
     },
     {
-      quote:"Procrastination is the art of keeping up with yesterday.",
-      name:"Don Marquis"
+      quote:"What did dinosaurs use to make their hot dogs?",
+      name:"Jurassic pork!"
     },
     {
-      quote:"Get your facts first, then you can distort them as you please.",
-      name:"Mark Twain"
+      quote:"What dinosaur could jump higher than a house?",
+      name:"All of them. Houses can't jump!"
     },
     {
-      quote:"A day without sunshine is like, you know, night.",
-      name:"Steve Martin"
+      quote:"What do you call it when a dinosaur gets in a car accident?",
+      name:"Tyrannasaurus wreck!"
     },
     {
-      quote:"My grandmother started walking five miles a day when she was sixty. She's ninety-seven now, and we don't know where the hell she is.",
-      name:"Ellen DeGeneres"
+      quote:"What do you call a blind dinosaur?",
+      name:"adoyouthinkhesaurus."
     },
     {
-      quote:"Don't sweat the petty things and don't pet the sweaty things.",
-      name:"George Carlin"
+      quote:"Who makes dinosaur clothes?",
+      name:"dino-sewer."
     },
     {
-      quote:"Always do whatever's next.",
-      name:"George Carlin"
+      quote:"What do you call a dinosaur that's a noisy sleeper?",
+      name:"A Bronto-snorus."
     },
     {
-      quote:"Atheism is a non-prophet organization.",
-      name:"George Carlin"
+      quote:"What do you call a dinosaurs fart?",
+      name:"A blast from the past"
     },
     {
-      quote:"Hapiness is not something ready made. It comes from your own actions.",
-      name:"Dalai Lama"
+      quote:"What kind of dinosaur works for the police?",
+      name:"A trisara-cop."
     }
 
 ];
