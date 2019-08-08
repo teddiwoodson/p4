@@ -124,7 +124,7 @@ summary {
 	padding: 2%;
 }
 .games {
-	background-color: orange;
+	background-color: #ffb347;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -312,7 +312,7 @@ span{padding-left:20px;}
 a{color:#336699;}
 /*--------JOKES---------------------------------*/
 .jokes {
-	background-color: teal;
+	background-color: #b4ecb4;
 	padding-bottom: 10%;
 }
 .jokesContainer {
@@ -368,37 +368,8 @@ a{color:#336699;}
 		display: block;
 	}
 }
-/*---------------------------VERT NAV-------------------*/
-#navbar {
-	z-index: 100000000000000;
-}
-.vertNav {
-	font-family: 'Chewy', cursive;
-	color: black;
-}
-.vertNav li {
-	padding: 0;
-}
-.vertNav a {
-	padding: 0;
-	top: 0;
-	color: black;
-	text-decoration: none;
-	padding-right: 1%;
-}
-.vertNav ul li{
-	list-style-type: none;
-	display: flex;
-	flex-direction: row;
-	justify-content: flex-end;
-		top: 0;
-}
-.sticky {
-  position: fixed;
-  top: 0;
-	padding-right: 1%;
-	width: 100%;
-	padding-top: 30%;
+.vertNav{
+	display: none;
 }
 
 /*------------STart media queries---------*/
@@ -455,6 +426,42 @@ a{color:#336699;}
 	}
 	.cross {
 		display: none;
+	}
+	/*---------------------------VERT NAV-------------------*/
+	#navbar {
+		z-index: 100000000000000;
+	}
+	.vertNav {
+		font-family: 'Chewy', cursive;
+		color: black;
+		display: flex;
+		justify-content: flex-end;
+			z-index: 100000000000000;
+	}
+	.vertNav li {
+		padding: 0;
+	}
+	.vertNav a {
+		padding: 0;
+		top: 0;
+		color: black;
+		text-decoration: none;
+		padding-right: 1.3%;
+		font-size: 2.5rem;
+	}
+	.vertNav ul li{
+		list-style-type: none;
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-end;
+			top: 0;
+	}
+	.sticky {
+	  position: fixed;
+	  top: 0;
+		padding-right: 1.3%;
+		padding-top: 35%;
+		z-index: 100000000000000;
 	}
 	.desktop nav {
 		display:inline;
