@@ -350,6 +350,7 @@ a{color:#336699;}
 	cursor:pointer;
 	background:#09c;
 	color: #fff;
+	font-family: 'Montserrat', sans-serif;
 }
 #quoteButton:active{
 	cursor: pointer;
@@ -393,7 +394,6 @@ footer {
 .hvr-grow:active {
     transform: scale(2);
 }
-
 /*------------STart media queries---------*/
 @media (min-width: 440px){
 	main article img {
@@ -578,6 +578,9 @@ footer {
 		padding-left: 0;
 		padding-right: 0;
 	}
+	.recipe {
+		width: 40%;
+	}
 	.games{
 		flex-direction: row;
 		justify-content: center;
@@ -619,8 +622,5 @@ footer {
 @media (min-width: 1044px){
 	main article img {
 		width:35%;
-	}
-	.recipe {
-		width: 35%;
 	}
 }
