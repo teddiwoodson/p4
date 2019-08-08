@@ -315,6 +315,15 @@ a{color:#336699;}
 	background-color: teal;
 	height: 100vh;
 }
+.jokesContainer {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	align-items: center;
+}
+.jokesContainer img {
+	max-width: 40%;
+}
 #quoteContainer{
 	width:75%;
 	padding:10px;
