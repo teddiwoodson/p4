@@ -313,23 +313,23 @@ a{color:#336699;}
 /*--------JOKES---------------------------------*/
 .jokes {
 	background-color: teal;
-	height: 100vh;
+	padding-bottom: 10%;
 }
 .jokesContainer {
 	display: flex;
 	flex-direction: column;
 	align-content: center;
 	align-items: center;
+	padding-top: 8%;
 }
 .jokesContainer img {
 	max-width: 40%;
 }
 #quoteContainer{
-	width:75%;
-	padding:10px;
+	max-width:75%;
+	padding:5%;
 	margin:auto;
 	text-align: center;
-  height:70px;
 }
 #buttonContainer{
 	width: 100%;
@@ -338,7 +338,7 @@ a{color:#336699;}
 #quoteButton{
 	width:200px;
 	margin-top: 10px;
-	border:2px solid #46b8da;
+	border:2px solid white;
 	color:#045;
 	font-family: inherit;
 	font-weight: bold;
@@ -368,6 +368,7 @@ a{color:#336699;}
 		display: block;
 	}
 }
+
 /*------------STart media queries---------*/
 @media (min-width: 440px){
 	main article img {
@@ -520,6 +521,13 @@ a{color:#336699;}
 	}
 	main article img {
 		padding-bottom: 10%;
+	}
+	.jokesContainer {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		padding-left: 10%;
+		padding-right: 10%;
 	}
 }
 @media (min-width: 900px){
